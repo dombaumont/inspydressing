@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>InspyDressing – Ton dressing dans ton iPhone</title>
-<meta name="description" content="InspyDressing range ton dressing dans ton iPhone : tes vêtements en photo, des tenues selon la météo, un calendrier et des stats. Tes données restent sur ton iPhone.">
+<title>InspyDressing – Ton dressing et ta styliste IA</title>
+<meta name="description" content="InspyDressing range ton dressing dans ton iPhone : tes vêtements en photo, une styliste IA qui compose avec tes pièces, des tenues selon la météo. Tes données restent sur ton iPhone.">
 <meta property="og:title" content="InspyDressing">
-<meta property="og:description" content="Ton dressing dans ton iPhone : des tenues selon la météo, sans compte ni publicité.">
-<meta property="og:image" content="https://dombaumont.github.io/inspydressing/img/icone.png">
+<meta property="og:description" content="Ton dressing dans ton iPhone, avec une styliste IA qui compose avec tes vêtements. Sans compte ni publicité.">
+<meta property="og:image" content="https://dombaumont.github.io/inspydressing/img/02-styliste.jpg">
 <link rel="icon" href="img/icone.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
@@ -23,25 +23,44 @@
     <img src="img/icone.png" alt="Icône d’InspyDressing">
     <div>
       <h1>Ton dressing dans ton iPhone.</h1>
-      <p class="lead">Photographie tes vêtements et tes bijoux, compose des tenues selon la météo, planifie ta semaine et redécouvre ce que tu ne portes plus.</p>
+      <p class="lead">Photographie tes vêtements et tes bijoux, laisse ta styliste composer avec tes pièces, planifie ta semaine selon la météo et redécouvre ce que tu ne portes plus.</p>
       <span class="badge">Bientôt sur l’App Store</span>
     </div>
   </header>
 
-  <div class="shots">
-    <img src="img/01-accueil.jpg" alt="Accueil : météo du jour et tenue du jour" loading="lazy">
-    <img src="img/03-composer.jpg" alt="Composer une tenue" loading="lazy">
-    <img src="img/05-tenue.jpg" alt="Une tenue enregistrée, avec partage et photo portée" loading="lazy">
-    <img src="img/08-stats.jpg" alt="Statistiques : pièces les plus portées et à redécouvrir" loading="lazy">
+  <div class="shots" role="list" aria-label="Captures de l’app">
+    <img role="listitem" src="img/01-accueil.jpg" alt="Ta tenue du jour, selon la météo" loading="lazy">
+    <img role="listitem" src="img/02-styliste.jpg" alt="Ta styliste IA avec tes vêtements" loading="lazy">
+    <img role="listitem" src="img/03-composer.jpg" alt="Une autre idée de tenue en secouant l’iPhone" loading="lazy">
+    <img role="listitem" src="img/05-options.jpg" alt="Options de la tenue : couleurs, bijoux, chapeau, sac" loading="lazy">
+    <img role="listitem" src="img/09-stats.jpg" alt="Redécouvre ton dressing : statistiques" loading="lazy">
+    <img role="listitem" src="img/10-fiche.jpg" alt="Chaque pièce en détail" loading="lazy">
   </div>
+
+  <section class="highlight">
+    <div>
+      <span class="tag">Nouveau</span>
+      <h2>Ta styliste IA, avec tes vêtements</h2>
+      <p>Pose-lui une question, joins une photo ou une pièce de ton dressing : elle répond avec ce que tu as vraiment.</p>
+      <ul>
+        <li><strong>En magasin</strong>, photographie un vêtement : elle compose une tenue avec tes pièces, te prévient si tu as déjà quelque chose de très proche, et te dit avec combien de pièces il irait.</li>
+        <li><strong>« Quelles chaussures avec ce pull ? »</strong> : trois propositions tirées de ton dressing, avec la raison de chacune.</li>
+        <li><strong>« Un pantalon noir va avec un haut rouge ? »</strong> : un avis clair, expliqué par tes règles de style.</li>
+      </ul>
+      <p class="small">Apple Intelligence l’aide à comprendre tes questions, sur ton iPhone. Ses réponses viennent de ton dressing et de tes règles : elle n’invente jamais de vêtement.</p>
+    </div>
+    <img src="img/02-styliste.jpg" alt="La styliste propose une tenue autour d’un pull photographié en magasin" loading="lazy">
+  </section>
 
   <h2>Ce que fait InspyDressing</h2>
   <div class="features">
-    <div class="feature"><h3>Tes pièces en photo</h3><p>Détourage automatique, couleurs reconnues, appareil photo guidé. Ou importe un vêtement acheté en ligne depuis la page de la boutique.</p></div>
-    <div class="feature"><h3>Des tenues selon la météo</h3><p>Une tenue du jour adaptée au temps qu’il fait, des options (couleurs, bijoux, chapeau, sac) et une nouvelle idée en secouant l’iPhone.</p></div>
-    <div class="feature"><h3>Calendrier et ressenti</h3><p>Planifie tes tenues avec la météo prévue, note ce que tu as porté et ce que tu en as pensé, ajoute une photo de toi.</p></div>
-    <div class="feature"><h3>Stats et redécouvertes</h3><p>Pièces les plus portées, coût par port, vêtements oubliés à remettre en avant, aide à la revente.</p></div>
-    <div class="feature"><h3>Entretien et rangement</h3><p>Composition et symboles d’entretien de chaque pièce, lieux de rangement (commode, penderie, grenier…).</p></div>
+    <div class="feature"><h3>Tes pièces en photo</h3><p>Appareil photo guidé, détourage automatique, couleurs reconnues. Ou importe un vêtement acheté en ligne depuis la page de la boutique.</p></div>
+    <div class="feature"><h3>Des tenues selon la météo</h3><p>Une tenue du jour adaptée au temps qu’il fait, et une nouvelle idée en secouant l’iPhone.</p></div>
+    <div class="feature"><h3>Tes règles de style</h3><p>Associations de couleurs, imprimés, volumes, chaussures… Une trentaine de règles à activer, désactiver ou ajuster selon ton goût.</p></div>
+    <div class="feature"><h3>Tes envies du jour</h3><p>Couleurs souhaitées ou à éviter, avec ou sans bijoux, chapeau ou sac.</p></div>
+    <div class="feature"><h3>Calendrier et ressenti</h3><p>Planifie tes tenues avec la météo prévue, note ce que tu as porté, ajoute une photo de toi, partage tes looks.</p></div>
+    <div class="feature"><h3>Stats et redécouvertes</h3><p>Pièces les plus portées, coût par port, vêtements oubliés, aide à la revente sur Vinted et ailleurs.</p></div>
+    <div class="feature"><h3>Entretien et rangement</h3><p>Composition et symboles d’entretien de chaque pièce. Tes emplacements (commode, penderie, grenier…) avec leurs tiroirs et étagères.</p></div>
     <div class="feature"><h3>Privé par défaut</h3><p>Pas de compte, pas de publicité, pas de suivi. Tes photos et tes données restent sur ton iPhone.</p></div>
   </div>
 
